@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-nova-bg: #1a0a3e;
+  --color-nova-card: #2d1b69;
+  --color-nova-gold: #ffd700;
+  --color-nova-gold-dark: #e6c200;
+  --color-nova-muted: #a89fd4;
+  --radius-nova: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-nova-bg);
+  color: white;
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a0a3e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d1b69;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d2b79;
+}
