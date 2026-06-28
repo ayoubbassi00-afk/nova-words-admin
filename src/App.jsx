@@ -5,6 +5,7 @@ import Layout from './components/Layout'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import Analytics from './pages/Analytics'
+import Notifications from './pages/Notifications'
 import WorldsLevels from './pages/WorldsLevels'
 import WordsManager from './pages/WordsManager'
 import Settings from './pages/Settings'
@@ -24,6 +25,7 @@ export default function App() {
           >
             <Route index element={<Dashboard />} />
             <Route path="analytics" element={<Analytics />} />
+            <Route path="notifications" element={<Notifications />} />
             <Route path="worlds" element={<WorldsLevels />} />
             <Route path="words" element={<WordsManager />} />
             <Route path="settings" element={<Settings />} />

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 const links = [
   { to: '/', label: 'Dashboard', icon: '📊' },
   { to: '/analytics', label: 'Analytics', icon: '📈' },
+  { to: '/notifications', label: 'Notifications', icon: '🔔' },
   { to: '/worlds', label: 'Worlds & Levels', icon: '🌍' },
   { to: '/words', label: 'Words Manager', icon: '📝' },
   { to: '/settings', label: 'Settings', icon: '⚙️' },
